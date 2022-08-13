@@ -73,6 +73,7 @@ section {
 }
 
 /* hero section */
+/* homepage hero */
 .hero {
     background-image: url("../images/hero-bg.jpg");
     height: 600px;
@@ -80,6 +81,8 @@ section {
     background-position: center;
     position: relative;
 }
+
+
 
 .hero-form {
     background-color: #fce138;
