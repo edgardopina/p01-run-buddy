@@ -19,7 +19,7 @@
                 <ul>
                     <!-- List item element-->
                     <li>
-                        <!-- Anchor element -->
+                        <!-- Anchor element. Click on "#xxxx" will jump to the element with id="#xxxx" -->
                         <a href="#what-we-do">What We Do</a>
                     </li>
                     <li><a href="#what-you-do">What You Do</a></li>
@@ -36,6 +36,7 @@
                 <p>Fill out this form and one of our trainers will schedule a consult.</p>
                 <form>
                     <!-- add a form element -->
+                    <!--  Note email and tel type elements -->
                     <label for="name">Enter full name:</label>
                     <input type="text" name="name" id="name" placeholder="Your name" class="form-input" />
                     <label for="email">Enter email address:</label>
@@ -52,6 +53,7 @@
                         <label for="trainer-no">No</label>
                     </p>
                     <p>
+                        <!-- label for="id value" extends clickable area -->
                         <label for="checkbox">I acknowledge that I am at least 18 years of age.</label>
                         <input type="checkbox" name="age-confirm" id="checkbox" />
                     </p>
@@ -76,7 +78,7 @@
         <section id="what-you-do" class="steps">
             <h2 class="section-title secondary-border">What You Do</h2>
             <div>
-                <!-- insert an img element -->
+                <!-- insert an img element. Use alt="" for decorative images-->
                 <img src="./assets/images/step-1.svg" alt="" />
                 <h3>Step 1: <span>Fill out the Form Above.</span></h3>
                 <p>You are already here, so why not?</p>

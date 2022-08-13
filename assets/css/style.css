@@ -2,7 +2,8 @@
 * {
     margin: 0;
     padding: 0;
-    /* The border-box value calculates the height and width of the element by including the border and padding additions to the content box.*/
+    /* The border-box value calculates the height and width of the element by including the border and padding */
+    /* additions to the content box.*/
     box-sizing: border-box;
 }
 
@@ -26,7 +27,8 @@ header h1 {
 }
 
 header a {
-    text-decoration: none; /* underline, strikethrough, or overline. none omits blue color and an underline */
+    /* underline, strikethrough, or overline. none omits blue color and an underline */
+    text-decoration: none;
     color: #fce138;
 }
 
@@ -81,8 +83,6 @@ section {
     background-position: center;
     position: relative;
 }
-
-
 
 .hero-form {
     background-color: #fce138;
